@@ -11,4 +11,4 @@ Task Tracker là một ứng dụng quản lý nhiệm vụ đơn giản cho ph�
 - **Liệt kê nhiệm vụ**: `node task_tracker.js list [todo|in-progress|done]`
 
 ## URL dự án
-[URL của dự án](https://github.com/NguyenDucMinhKhoi/Task_Tracker)  <!-- Thay thế bằng URL thực tế của bạn -->
+https://github.com/NguyenDucMinhKhoi/Task_Tracker  
