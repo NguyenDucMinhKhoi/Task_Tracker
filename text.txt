@@ -1,2 +1,19 @@
 Hướng dẫn sử dụng BE:
 node task_tracker.js <command> [arguments]
+
+Các chức năng và lệnh sử dụng
+a. Thêm nhiệm vụ mới:
+node task_tracker.js add "Mô tả nhiệm vụ"
+b. Cập nhật nhiệm vụ:
+node task_tracker.js update "Mô tả mới"
+c. Xóa nhiệm vụ:
+node task_tracker.js delete <id>
+d. Đánh dấu trạng thái cho nhiệm vụ:
++ Đánh dấu nhiệm vụ đang tiến hành:
+node task_tracker.js mark-in-progress <id>
++ Đánh dấu nhiệm vụ đã hoàn thành:
+node task_tracker.js mark-done <id>
+e. Liệt kê nhiệm vụ:
+node task_tracker.js list
++ Liệt kê theo trạng thái: (todo, in-progress, done)
+node task_tracker.js list <trạng thái>
